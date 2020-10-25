@@ -1,0 +1,9 @@
+# Emacs.
+*~
+
+# Node/npm.
+.DS_Store
+.env
+build
+node_modules
+npm-debug.log

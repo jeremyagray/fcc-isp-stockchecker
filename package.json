@@ -1,0 +1,42 @@
+{
+  "name": "fcc-isp-stockchecker",
+  "homepage": "http://www.grayfarms.org/",
+  "author": "Jeremy A Gray <jeremy.a.gray@gmail.com> (http://www.grayfarms.org/)",
+  "version": "0.0.1",
+  "description": "FCC ISP Stock Price Checker API",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "mocha --timeout 5000 --recursive --exit --ui tdd tests/"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.0",
+    "helmet": "^4.1.0",
+    "mocha": "^8.1.0",
+    "mongoose": "^5.10.0",
+    "node-fetch": "^3.0.0-beta.9",
+    "nodemon": "^2.0.0",
+    "zombie": "^6.1.0"
+  },
+  "engines": {
+    "node": "15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://repl.it/@jeremyagray/fcc-isp-stockchecker"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "license": "MIT",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {}
+}
